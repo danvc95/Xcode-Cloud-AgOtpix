@@ -30,9 +30,8 @@ struct Home: View {
             NIRSystems()
                 .tag("NIR Systems")
               
-         
-            SensoLogic()
-                .tag("SensoLogic")
+            Software()
+                .tag("Software")
             
         }
     }

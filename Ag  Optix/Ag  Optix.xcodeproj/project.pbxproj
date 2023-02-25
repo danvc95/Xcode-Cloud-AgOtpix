@@ -14,7 +14,7 @@
 		68029E2D29A98CFF00A26B0E /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E2C29A98CFF00A26B0E /* HomePage.swift */; };
 		68029E3529A98D9200A26B0E /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E3429A98D9200A26B0E /* MainMenu.swift */; };
 		68029E3D29A98DD700A26B0E /* NIRSystems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E3C29A98DD700A26B0E /* NIRSystems.swift */; };
-		68029E4829A9C37B00A26B0E /* SensoLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E4729A9C37B00A26B0E /* SensoLogic.swift */; };
+		68029E4829A9C37B00A26B0E /* Software.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E4729A9C37B00A26B0E /* Software.swift */; };
 		68C64BEE29A97D3900C255F9 /* Ag__OptixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C64BED29A97D3900C255F9 /* Ag__OptixApp.swift */; };
 		68C64BF029A97D3900C255F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C64BEF29A97D3900C255F9 /* ContentView.swift */; };
 		68C64BF229A97D3B00C255F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68C64BF129A97D3B00C255F9 /* Assets.xcassets */; };
@@ -36,7 +36,7 @@
 		68029E3429A98D9200A26B0E /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		68029E3C29A98DD700A26B0E /* NIRSystems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIRSystems.swift; sourceTree = "<group>"; };
 		68029E4229A9A92800A26B0E /* Ag--Optix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Ag--Optix-Info.plist"; sourceTree = SOURCE_ROOT; };
-		68029E4729A9C37B00A26B0E /* SensoLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensoLogic.swift; sourceTree = "<group>"; };
+		68029E4729A9C37B00A26B0E /* Software.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Software.swift; sourceTree = "<group>"; };
 		68C64BEA29A97D3900C255F9 /* Ag  Optix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ag  Optix.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C64BED29A97D3900C255F9 /* Ag__OptixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ag__OptixApp.swift; sourceTree = "<group>"; };
 		68C64BEF29A97D3900C255F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 				68FAD3A429A9CDC70083621F /* MainView.swift */,
 				68029E2A29A98CEC00A26B0E /* Home.swift */,
 				68029E2C29A98CFF00A26B0E /* HomePage.swift */,
-				68029E4729A9C37B00A26B0E /* SensoLogic.swift */,
+				68029E4729A9C37B00A26B0E /* Software.swift */,
 				68029E3C29A98DD700A26B0E /* NIRSystems.swift */,
 				68FAD3A629A9E6480083621F /* CPpdf.swift */,
 				68FAD3AC29A9F9840083621F /* Aurapdf.swift */,
@@ -203,7 +203,7 @@
 				68FAD3AD29A9F9840083621F /* Aurapdf.swift in Sources */,
 				68029E2B29A98CEC00A26B0E /* Home.swift in Sources */,
 				68029E3D29A98DD700A26B0E /* NIRSystems.swift in Sources */,
-				68029E4829A9C37B00A26B0E /* SensoLogic.swift in Sources */,
+				68029E4829A9C37B00A26B0E /* Software.swift in Sources */,
 				68C64BEE29A97D3900C255F9 /* Ag__OptixApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

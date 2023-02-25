@@ -55,6 +55,16 @@ struct HomePage: View {
                                     }
                                 }
                                 
+                                
+                                Spacer()
+                                    .frame(height: 30)
+                                
+                                Image("standard")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fill)
+                                    .frame(width: getRect().width - 0, height: 290)
+                                    .cornerRadius(20)
+                                
                                 Spacer()
                                     .frame(height: 30)
                                 
@@ -71,7 +81,7 @@ struct HomePage: View {
                                 Spacer()
                                     .frame(height: 30)
                                 
-                                Image("standard")
+                                Image("standard2")
                                     .resizable()
                                     .aspectRatio(contentMode: .fill)
                                     .frame(width: getRect().width - 0, height: 290)
@@ -82,6 +92,10 @@ struct HomePage: View {
                             }
                             
                             Group{
+                                Text("Visible and Near-Infrared for Food Production")
+                                    .fontWeight(.bold)
+                                    .frame(width: 370, height: 100, alignment: .center)
+                                    .font(.system(size: 27))
                                 
                                 Text("Ag Optix can not only provision, install and service ZEISS NIR systems but can also assist your team with food NIR calibration and application development. Ag Optix offers a complete inline NIR and Vis/NIR integration service and can assist QC and Process Optimization teams with NIR calibration and application development onsite. The state-of-the-art capabilities of a ZEISS system offers a unique opportunity for system-wide optimization.  Measure inline and in real time the constituents that matter to your product and your bottom line.")
                                     .frame(width: 370, height: 220, alignment: .center)
@@ -91,15 +105,37 @@ struct HomePage: View {
                                     Spacer()
                                         .frame(height: 50)
                                
-                                    Image("standard")
+                                    Image("integration")
                                         .resizable()
                                         .aspectRatio(contentMode: .fill)
-                                        .frame(width: getRect().width - 0, height: 290)
-                                        .cornerRadius(20)
+                                        
+                                        .cornerRadius(10)
                                     
                                     Spacer()
                                         .frame(height: 50)
+                                    Text("Solutions for Everyone")
+                                        .fontWeight(.bold)
+                                        .frame(width: 370, height: 50, alignment: .center)
+                                        .font(.system(size: 27))
+                                
+                                    Text("Today, ZEISS Spectroscopy leads the world in the innovation of connected spectrometers and with partners like John Deere, ZEISS is making big impacts in farming both in fertilizer application savings and harvest value metrics. Current customers include potato product processors, grain handlers, snack makers, ethanol plants, vegetable processors, fruit, berry and nut growers, meat packers, food oil refiners, confectioners and dairy goods producers.")
+                                        .frame(width: 370, height: 220, alignment: .center)
+                                        .font(.system(size: 16))
+                                
+                                
+                                
+                                
+                                
+                                Spacer()
+                                    .frame(height: 50)
+                                
+                                    Image("light")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fill)
+                                        .cornerRadius(10)
                                     
+                                    Spacer()
+                                        .frame(height: 60)
                                     
                                 
                             }
