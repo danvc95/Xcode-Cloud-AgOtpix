@@ -68,20 +68,21 @@ struct NIRSystems: View {
                             
                             
                             
-                        
+                            
                             
                             VStack{
                                 NavigationLink(destination: CPpdf()){
-                                        Image("coronaprocess")
-                                            .resizable()
-                                            .aspectRatio(contentMode: .fill)
-                                            .frame(width:300, height: 60)
+                                    Image("coronaprocess")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fill)
+                                        .frame(width:300, height: 60)
                                 }
-                               // .navigationBarBackButtonHidden(true)
+                                // .navigationBarBackButtonHidden(true)
                             }
                             Spacer()
                                 .frame(height:220)
-                            
+                        }
+                        Group{
                             NavigationLink(destination: CPusermanual().id(UUID())
                                 .navigationBarBackButtonHidden(true)
                                 .navigationBarItems(leading: MyBackButton(label: "Back!") {
@@ -133,7 +134,8 @@ struct NIRSystems: View {
                                 .frame(height:200)
                             
                             
-                            
+                        }
+                        Group{
                         
                             
                             VStack{
@@ -186,16 +188,16 @@ struct NIRSystems: View {
                             
                             
                             
-                        
+                            
                             
                             VStack{
                                 NavigationLink(destination: Aurapdf()){
-                                        Image("aura")
-                                            .resizable()
-                                            .aspectRatio(contentMode: .fill)
-                                            .frame(width:300, height: 60)
+                                    Image("aura")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fill)
+                                        .frame(width:300, height: 60)
                                 }
-                               // .navigationBarBackButtonHidden(true)
+                                // .navigationBarBackButtonHidden(true)
                             }
                             Spacer()
                                 .frame(height:220)
@@ -212,6 +214,10 @@ struct NIRSystems: View {
                                     .frame(width: 300, height: 10, alignment: .center)
                                     .font(.system(size: 30))
                             }
+                            
+                        }
+                        Group{
+                            
                             Spacer()
                                 .frame(height:50)
                             
