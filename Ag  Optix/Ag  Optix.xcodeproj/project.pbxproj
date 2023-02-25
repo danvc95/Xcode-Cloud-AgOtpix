@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68029E2129A98C8300A26B0E /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E2029A98C8300A26B0E /* CustomCorners.swift */; };
+		68029E2329A98C9B00A26B0E /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E2229A98C9B00A26B0E /* TabButton.swift */; };
+		68029E2529A98CAD00A26B0E /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E2429A98CAD00A26B0E /* SideMenu.swift */; };
+		68029E2729A98CC400A26B0E /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E2629A98CC400A26B0E /* MenuButton.swift */; };
+		68029E2929A98CD900A26B0E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E2829A98CD900A26B0E /* MainView.swift */; };
+		68029E2B29A98CEC00A26B0E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E2A29A98CEC00A26B0E /* Home.swift */; };
+		68029E2D29A98CFF00A26B0E /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E2C29A98CFF00A26B0E /* HomePage.swift */; };
+		68029E2F29A98D0E00A26B0E /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E2E29A98D0E00A26B0E /* AboutUs.swift */; };
+		68029E3329A98D8000A26B0E /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E3229A98D8000A26B0E /* Settings.swift */; };
+		68029E3529A98D9200A26B0E /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E3429A98D9200A26B0E /* MainMenu.swift */; };
+		68029E3929A98DB700A26B0E /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E3829A98DB700A26B0E /* Help.swift */; };
+		68029E3B29A98DC900A26B0E /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E3A29A98DC900A26B0E /* Videos.swift */; };
+		68029E3D29A98DD700A26B0E /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E3C29A98DD700A26B0E /* Products.swift */; };
+		68029E3F29A98DF000A26B0E /* CoronaProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E3E29A98DF000A26B0E /* CoronaProcess.swift */; };
 		68C64BEE29A97D3900C255F9 /* Ag__OptixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C64BED29A97D3900C255F9 /* Ag__OptixApp.swift */; };
 		68C64BF029A97D3900C255F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C64BEF29A97D3900C255F9 /* ContentView.swift */; };
 		68C64BF229A97D3B00C255F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68C64BF129A97D3B00C255F9 /* Assets.xcassets */; };
@@ -14,6 +28,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68029E2029A98C8300A26B0E /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
+		68029E2229A98C9B00A26B0E /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		68029E2429A98CAD00A26B0E /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		68029E2629A98CC400A26B0E /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		68029E2829A98CD900A26B0E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		68029E2A29A98CEC00A26B0E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		68029E2C29A98CFF00A26B0E /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		68029E2E29A98D0E00A26B0E /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
+		68029E3229A98D8000A26B0E /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		68029E3429A98D9200A26B0E /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		68029E3829A98DB700A26B0E /* Help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
+		68029E3A29A98DC900A26B0E /* Videos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
+		68029E3C29A98DD700A26B0E /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		68029E3E29A98DF000A26B0E /* CoronaProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoronaProcess.swift; sourceTree = "<group>"; };
 		68C64BEA29A97D3900C255F9 /* Ag  Optix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ag  Optix.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C64BED29A97D3900C255F9 /* Ag__OptixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ag__OptixApp.swift; sourceTree = "<group>"; };
 		68C64BEF29A97D3900C255F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +60,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68029E1F29A98C5D00A26B0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				68029E2029A98C8300A26B0E /* CustomCorners.swift */,
+				68029E2229A98C9B00A26B0E /* TabButton.swift */,
+				68029E2429A98CAD00A26B0E /* SideMenu.swift */,
+				68029E2629A98CC400A26B0E /* MenuButton.swift */,
+				68029E2829A98CD900A26B0E /* MainView.swift */,
+				68029E2A29A98CEC00A26B0E /* Home.swift */,
+				68029E2C29A98CFF00A26B0E /* HomePage.swift */,
+				68029E2E29A98D0E00A26B0E /* AboutUs.swift */,
+				68029E3229A98D8000A26B0E /* Settings.swift */,
+				68029E3429A98D9200A26B0E /* MainMenu.swift */,
+				68029E3829A98DB700A26B0E /* Help.swift */,
+				68029E3A29A98DC900A26B0E /* Videos.swift */,
+				68029E3C29A98DD700A26B0E /* Products.swift */,
+				68029E3E29A98DF000A26B0E /* CoronaProcess.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		68C64BE129A97D3800C255F9 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +100,7 @@
 		68C64BEC29A97D3900C255F9 /* Ag  Optix */ = {
 			isa = PBXGroup;
 			children = (
+				68029E1F29A98C5D00A26B0E /* View */,
 				68C64BED29A97D3900C255F9 /* Ag__OptixApp.swift */,
 				68C64BEF29A97D3900C255F9 /* ContentView.swift */,
 				68C64BF129A97D3B00C255F9 /* Assets.xcassets */,
@@ -137,7 +187,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68029E3929A98DB700A26B0E /* Help.swift in Sources */,
 				68C64BF029A97D3900C255F9 /* ContentView.swift in Sources */,
+				68029E2D29A98CFF00A26B0E /* HomePage.swift in Sources */,
+				68029E3B29A98DC900A26B0E /* Videos.swift in Sources */,
+				68029E2929A98CD900A26B0E /* MainView.swift in Sources */,
+				68029E2329A98C9B00A26B0E /* TabButton.swift in Sources */,
+				68029E2729A98CC400A26B0E /* MenuButton.swift in Sources */,
+				68029E3F29A98DF000A26B0E /* CoronaProcess.swift in Sources */,
+				68029E2529A98CAD00A26B0E /* SideMenu.swift in Sources */,
+				68029E2129A98C8300A26B0E /* CustomCorners.swift in Sources */,
+				68029E3529A98D9200A26B0E /* MainMenu.swift in Sources */,
+				68029E2F29A98D0E00A26B0E /* AboutUs.swift in Sources */,
+				68029E2B29A98CEC00A26B0E /* Home.swift in Sources */,
+				68029E3D29A98DD700A26B0E /* Products.swift in Sources */,
+				68029E3329A98D8000A26B0E /* Settings.swift in Sources */,
 				68C64BEE29A97D3900C255F9 /* Ag__OptixApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +259,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -249,6 +314,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -265,16 +331,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Ag  Optix/Preview Content\"";
 				DEVELOPMENT_TEAM = LYZJVZ28WW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,16 +362,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Ag  Optix/Preview Content\"";
 				DEVELOPMENT_TEAM = LYZJVZ28WW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
