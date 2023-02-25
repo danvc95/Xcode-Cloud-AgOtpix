@@ -28,7 +28,7 @@ struct MainMenu: View {    //Selected Tab..
             MenuButton(image: "house.fill", title: "HomePage", selectedTab: $selectedTab,
                 animation: animation)
             
-            MenuButton(image: "tray.fill", title: "SensoLogic", selectedTab: $selectedTab,
+            MenuButton(image: "tray.fill", title: "Software", selectedTab: $selectedTab,
                 animation: animation)
             
             //padding()
