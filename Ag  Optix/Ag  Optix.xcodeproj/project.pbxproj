@@ -9,45 +9,45 @@
 /* Begin PBXBuildFile section */
 		68029E2129A98C8300A26B0E /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E2029A98C8300A26B0E /* CustomCorners.swift */; };
 		68029E2329A98C9B00A26B0E /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E2229A98C9B00A26B0E /* TabButton.swift */; };
-		68029E2529A98CAD00A26B0E /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E2429A98CAD00A26B0E /* SideMenu.swift */; };
 		68029E2729A98CC400A26B0E /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E2629A98CC400A26B0E /* MenuButton.swift */; };
-		68029E2929A98CD900A26B0E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E2829A98CD900A26B0E /* MainView.swift */; };
 		68029E2B29A98CEC00A26B0E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E2A29A98CEC00A26B0E /* Home.swift */; };
 		68029E2D29A98CFF00A26B0E /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E2C29A98CFF00A26B0E /* HomePage.swift */; };
-		68029E2F29A98D0E00A26B0E /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E2E29A98D0E00A26B0E /* AboutUs.swift */; };
-		68029E3329A98D8000A26B0E /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E3229A98D8000A26B0E /* Settings.swift */; };
 		68029E3529A98D9200A26B0E /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E3429A98D9200A26B0E /* MainMenu.swift */; };
-		68029E3929A98DB700A26B0E /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E3829A98DB700A26B0E /* Help.swift */; };
-		68029E3B29A98DC900A26B0E /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E3A29A98DC900A26B0E /* Videos.swift */; };
-		68029E3D29A98DD700A26B0E /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E3C29A98DD700A26B0E /* Products.swift */; };
-		68029E3F29A98DF000A26B0E /* CoronaProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E3E29A98DF000A26B0E /* CoronaProcess.swift */; };
+		68029E3D29A98DD700A26B0E /* NIRSystems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E3C29A98DD700A26B0E /* NIRSystems.swift */; };
+		68029E4829A9C37B00A26B0E /* SensoLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68029E4729A9C37B00A26B0E /* SensoLogic.swift */; };
 		68C64BEE29A97D3900C255F9 /* Ag__OptixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C64BED29A97D3900C255F9 /* Ag__OptixApp.swift */; };
 		68C64BF029A97D3900C255F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C64BEF29A97D3900C255F9 /* ContentView.swift */; };
 		68C64BF229A97D3B00C255F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68C64BF129A97D3B00C255F9 /* Assets.xcassets */; };
 		68C64BF529A97D3B00C255F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68C64BF429A97D3B00C255F9 /* Preview Assets.xcassets */; };
+		68FAD3A529A9CDC70083621F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FAD3A429A9CDC70083621F /* MainView.swift */; };
+		68FAD3A729A9E6480083621F /* CPpdf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FAD3A629A9E6480083621F /* CPpdf.swift */; };
+		68FAD3A929A9EEE70083621F /* CPusermanual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FAD3A829A9EEE70083621F /* CPusermanual.swift */; };
+		68FAD3AB29A9F94E0083621F /* CEpdf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FAD3AA29A9F94E0083621F /* CEpdf.swift */; };
+		68FAD3AD29A9F9840083621F /* Aurapdf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FAD3AC29A9F9840083621F /* Aurapdf.swift */; };
+		68FAD3AF29A9F99B0083621F /* Aurausermanual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FAD3AE29A9F99B0083621F /* Aurausermanual.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		68029E2029A98C8300A26B0E /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
 		68029E2229A98C9B00A26B0E /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
-		68029E2429A98CAD00A26B0E /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		68029E2629A98CC400A26B0E /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
-		68029E2829A98CD900A26B0E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		68029E2A29A98CEC00A26B0E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		68029E2C29A98CFF00A26B0E /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
-		68029E2E29A98D0E00A26B0E /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
-		68029E3229A98D8000A26B0E /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		68029E3429A98D9200A26B0E /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
-		68029E3829A98DB700A26B0E /* Help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
-		68029E3A29A98DC900A26B0E /* Videos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
-		68029E3C29A98DD700A26B0E /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
-		68029E3E29A98DF000A26B0E /* CoronaProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoronaProcess.swift; sourceTree = "<group>"; };
+		68029E3C29A98DD700A26B0E /* NIRSystems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIRSystems.swift; sourceTree = "<group>"; };
 		68029E4229A9A92800A26B0E /* Ag--Optix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Ag--Optix-Info.plist"; sourceTree = SOURCE_ROOT; };
+		68029E4729A9C37B00A26B0E /* SensoLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensoLogic.swift; sourceTree = "<group>"; };
 		68C64BEA29A97D3900C255F9 /* Ag  Optix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ag  Optix.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C64BED29A97D3900C255F9 /* Ag__OptixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ag__OptixApp.swift; sourceTree = "<group>"; };
 		68C64BEF29A97D3900C255F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68C64BF129A97D3B00C255F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68C64BF429A97D3B00C255F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68FAD3A429A9CDC70083621F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		68FAD3A629A9E6480083621F /* CPpdf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPpdf.swift; sourceTree = "<group>"; };
+		68FAD3A829A9EEE70083621F /* CPusermanual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPusermanual.swift; sourceTree = "<group>"; };
+		68FAD3AA29A9F94E0083621F /* CEpdf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEpdf.swift; sourceTree = "<group>"; };
+		68FAD3AC29A9F9840083621F /* Aurapdf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aurapdf.swift; sourceTree = "<group>"; };
+		68FAD3AE29A9F99B0083621F /* Aurausermanual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aurausermanual.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,18 +66,18 @@
 			children = (
 				68029E2029A98C8300A26B0E /* CustomCorners.swift */,
 				68029E2229A98C9B00A26B0E /* TabButton.swift */,
-				68029E2429A98CAD00A26B0E /* SideMenu.swift */,
 				68029E2629A98CC400A26B0E /* MenuButton.swift */,
-				68029E2829A98CD900A26B0E /* MainView.swift */,
+				68029E3429A98D9200A26B0E /* MainMenu.swift */,
+				68FAD3A429A9CDC70083621F /* MainView.swift */,
 				68029E2A29A98CEC00A26B0E /* Home.swift */,
 				68029E2C29A98CFF00A26B0E /* HomePage.swift */,
-				68029E2E29A98D0E00A26B0E /* AboutUs.swift */,
-				68029E3229A98D8000A26B0E /* Settings.swift */,
-				68029E3429A98D9200A26B0E /* MainMenu.swift */,
-				68029E3829A98DB700A26B0E /* Help.swift */,
-				68029E3A29A98DC900A26B0E /* Videos.swift */,
-				68029E3C29A98DD700A26B0E /* Products.swift */,
-				68029E3E29A98DF000A26B0E /* CoronaProcess.swift */,
+				68029E4729A9C37B00A26B0E /* SensoLogic.swift */,
+				68029E3C29A98DD700A26B0E /* NIRSystems.swift */,
+				68FAD3A629A9E6480083621F /* CPpdf.swift */,
+				68FAD3AC29A9F9840083621F /* Aurapdf.swift */,
+				68FAD3AE29A9F99B0083621F /* Aurausermanual.swift */,
+				68FAD3AA29A9F94E0083621F /* CEpdf.swift */,
+				68FAD3A829A9EEE70083621F /* CPusermanual.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -189,21 +189,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68029E3929A98DB700A26B0E /* Help.swift in Sources */,
 				68C64BF029A97D3900C255F9 /* ContentView.swift in Sources */,
+				68FAD3A529A9CDC70083621F /* MainView.swift in Sources */,
+				68FAD3AB29A9F94E0083621F /* CEpdf.swift in Sources */,
+				68FAD3A729A9E6480083621F /* CPpdf.swift in Sources */,
 				68029E2D29A98CFF00A26B0E /* HomePage.swift in Sources */,
-				68029E3B29A98DC900A26B0E /* Videos.swift in Sources */,
-				68029E2929A98CD900A26B0E /* MainView.swift in Sources */,
 				68029E2329A98C9B00A26B0E /* TabButton.swift in Sources */,
 				68029E2729A98CC400A26B0E /* MenuButton.swift in Sources */,
-				68029E3F29A98DF000A26B0E /* CoronaProcess.swift in Sources */,
-				68029E2529A98CAD00A26B0E /* SideMenu.swift in Sources */,
+				68FAD3AF29A9F99B0083621F /* Aurausermanual.swift in Sources */,
+				68FAD3A929A9EEE70083621F /* CPusermanual.swift in Sources */,
 				68029E2129A98C8300A26B0E /* CustomCorners.swift in Sources */,
 				68029E3529A98D9200A26B0E /* MainMenu.swift in Sources */,
-				68029E2F29A98D0E00A26B0E /* AboutUs.swift in Sources */,
+				68FAD3AD29A9F9840083621F /* Aurapdf.swift in Sources */,
 				68029E2B29A98CEC00A26B0E /* Home.swift in Sources */,
-				68029E3D29A98DD700A26B0E /* Products.swift in Sources */,
-				68029E3329A98D8000A26B0E /* Settings.swift in Sources */,
+				68029E3D29A98DD700A26B0E /* NIRSystems.swift in Sources */,
+				68029E4829A9C37B00A26B0E /* SensoLogic.swift in Sources */,
 				68C64BEE29A97D3900C255F9 /* Ag__OptixApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

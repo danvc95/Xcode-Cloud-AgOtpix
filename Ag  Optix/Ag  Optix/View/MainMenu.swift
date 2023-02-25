@@ -22,13 +22,13 @@ struct MainMenu: View {    //Selected Tab..
         HStack{
             
 
-            MenuButton(image: "book.fill", title: "About Us", selectedTab: $selectedTab,
+            MenuButton(image: "book.fill", title: "NIR Systems", selectedTab: $selectedTab,
                 animation: animation)
             
             MenuButton(image: "house.fill", title: "HomePage", selectedTab: $selectedTab,
                 animation: animation)
             
-            MenuButton(image: "tray.fill", title: "Products", selectedTab: $selectedTab,
+            MenuButton(image: "tray.fill", title: "SensoLogic", selectedTab: $selectedTab,
                 animation: animation)
             
             //padding()
@@ -36,20 +36,16 @@ struct MainMenu: View {    //Selected Tab..
         }
         //.padding()
         .padding(.top, 1)
-        //.preferredColorScheme(.dark)
-        .padding(.bottom, 80)
+        .padding(.bottom, 0)
         .background(Color("blue"))
         
-        
         }
-//    }
-        
 }
 
 struct MainMenu_Previews: PreviewProvider {
    // @State var selectedTabs = "HomePage"
     static var previews: some View {
         ContentView()
-       // MainMenu(selectedTab: $selectedTabs)
    }
 }
+

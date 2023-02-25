@@ -28,11 +28,12 @@ struct HomePage: View {
                                      
                             
                             Spacer()
-                                .frame(height: 100)
-                            Text("Ag Optix")
-                                .fontWeight(.bold)
-             
-                            Text("Powered by Zeiss")
+                                .frame(height: 30)
+                            Image("AUX Logo")
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: getRect().width - 300, height: 100)
+                   
                                 
                             Spacer()
                                 .frame(height: 8)
@@ -69,10 +70,7 @@ struct HomePage: View {
                                 Text("Phone: 541-335-4634")
                                 Text("email: help@agoptix.com")
                                 
-                                Image("AUX Logo")
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fill)
-                                    .frame(width: getRect().width - 300, height: 100)
+                                
                             
                                 
                             }

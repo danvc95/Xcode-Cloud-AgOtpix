@@ -27,20 +27,12 @@ struct Home: View {
             HomePage()
                 .tag("HomePage")
             
-            Videos()
-                .tag("Videos")
-            
-            Products()
-                .tag("Products")
-            
-            Settings()
-                .tag("Settings")
-            
-            Help()
-                .tag("Help")
-            
-            AboutUs()
-                .tag("About Us")
+            NIRSystems()
+                .tag("NIR Systems")
+              
+         
+            SensoLogic()
+                .tag("SensoLogic")
             
         }
     }
@@ -53,7 +45,6 @@ struct Home: View {
 struct Home_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-.previewInterfaceOrientation(.portrait)
     }
 }
 
