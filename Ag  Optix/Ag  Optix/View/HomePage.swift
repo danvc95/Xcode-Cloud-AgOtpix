@@ -17,11 +17,7 @@ struct HomePage: View {
         NavigationView{
             ZStack {
                 
-                Image("farm2")
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: getRect().width - 0, height: 800)
-                    .cornerRadius(40)
+
                 
                 ScrollView{
                 
