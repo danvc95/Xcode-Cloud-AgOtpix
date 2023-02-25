@@ -98,6 +98,21 @@ struct Software: View {
                                             .frame(width: 370, height: 100, alignment: .center)
                                             .font(.system(size: 16))
                                         
+                                        Spacer()
+                                            .frame(height:220)
+                                        
+                                        NavigationLink(destination: CPusermanual().id(UUID())
+                                            .navigationBarBackButtonHidden(true)
+                                            .navigationBarItems(leading: MyBackButton(label: "Back!") {
+                                                self.model.pushed = false
+                                            })
+                                        ){
+                                            
+                                            Text("Learn More >")
+                                                .fontWeight(.bold)
+                                                .frame(width: 300, height: 10, alignment: .center)
+                                                .font(.system(size: 30))
+                                        }
                                         
                                         Spacer()
                                             .frame(height: 100)
@@ -165,7 +180,21 @@ struct Software: View {
         }
     }
     
+struct MyBackButton: View {
+    let label: String
+    let closure: () -> Void
 
+    var body: some View {
+        
+        NavigationLink(destination: NIRSystems()) {
+            HStack(spacing: 4) {
+                Image(systemName: "chevron.left")
+                Text("Back")
+                }
+        }
+        
+    }
+}
 
 struct Settingss_Previews: PreviewProvider {
     static var previews: some View {
