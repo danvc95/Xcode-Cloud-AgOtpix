@@ -42,6 +42,7 @@
 		68029E3A29A98DC900A26B0E /* Videos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
 		68029E3C29A98DD700A26B0E /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		68029E3E29A98DF000A26B0E /* CoronaProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoronaProcess.swift; sourceTree = "<group>"; };
+		68029E4229A9A92800A26B0E /* Ag--Optix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Ag--Optix-Info.plist"; sourceTree = SOURCE_ROOT; };
 		68C64BEA29A97D3900C255F9 /* Ag  Optix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ag  Optix.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C64BED29A97D3900C255F9 /* Ag__OptixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ag__OptixApp.swift; sourceTree = "<group>"; };
 		68C64BEF29A97D3900C255F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +101,7 @@
 		68C64BEC29A97D3900C255F9 /* Ag  Optix */ = {
 			isa = PBXGroup;
 			children = (
+				68029E4229A9A92800A26B0E /* Ag--Optix-Info.plist */,
 				68029E1F29A98C5D00A26B0E /* View */,
 				68C64BED29A97D3900C255F9 /* Ag__OptixApp.swift */,
 				68C64BEF29A97D3900C255F9 /* ContentView.swift */,
@@ -338,14 +340,16 @@
 				DEVELOPMENT_TEAM = LYZJVZ28WW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ag--Optix-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -370,14 +374,16 @@
 				DEVELOPMENT_TEAM = LYZJVZ28WW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ag--Optix-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

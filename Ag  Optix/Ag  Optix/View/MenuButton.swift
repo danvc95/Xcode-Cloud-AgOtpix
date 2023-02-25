@@ -41,6 +41,8 @@ struct MenuButton: View {
             
             // Max Frame...
             .frame(maxWidth: getRect().width, alignment: .center)
+            
+            
             .background(
             
                 // hero Animation...
@@ -53,6 +55,7 @@ struct MenuButton: View {
                     }
                 })
         })
+        
     }
 }
 

@@ -13,7 +13,8 @@ struct CoronaProcess: View {
         NavigationView{
             
             ZStack {
-                
+                Color.white
+                    .ignoresSafeArea()
                 
                 ScrollView{
                 
