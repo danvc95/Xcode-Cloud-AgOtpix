@@ -43,6 +43,19 @@ struct NIRSystems: View {
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .frame(width: getRect().width - 20, height: 90)
+                            
+                            Spacer()
+                                .frame(height: 50)
+                            
+                            Image("standard2")
+                                .resizable()
+                                .aspectRatio(CGSize(width: 7, height: 4), contentMode: .fill)
+                                .frame(width: getRect().width - 40, height: 230)
+                                .cornerRadius(20)
+                            
+                            
+                            
+                            
                             Spacer()
                                 .frame(height: 70)
                             

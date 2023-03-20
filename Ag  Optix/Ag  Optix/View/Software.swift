@@ -31,9 +31,9 @@ struct Software: View {
                     
                     ScrollView{
                         
-                        VStack(alignment: .leading,spacing: 2){
+                        VStack(alignment: .center ,spacing: 3){
                  
-                                VStack(alignment: .center, spacing: 3, content: {
+                            VStack(alignment: .center, spacing: 3, content: {
                                     
                                     Group{
                                         Spacer()
@@ -45,49 +45,55 @@ struct Software: View {
                                             .frame(width: getRect().width - 20, height: 90)
                                         
                                         
-                                        
                                         Spacer()
                                             .frame(height: 40)
                                     }
-                                        Group{
+                                
+                                
+                                    Group{
+                                        
+                                        VStack{
+                                            Text("InProcess")
+                                                .fontWeight(.bold)
+                                                .font(.title)
+                                                .frame(width: 360, height: 50, alignment: .center)
+                                                .font(.system(size: 10))
                                             
-                                            VStack{
-                                                Text("InProcess")
-                                                    .fontWeight(.bold)
-                                                    .font(.title)
-                                                
-                                                Spacer()
-                                                    .frame(height: 30)
-                                                
-                                                Image("inprocess1")
-                                                    .resizable()
-                                                    .aspectRatio(contentMode: .fill)
-                                                    .frame(width: getRect().width - 0, height: 290)
-                                                    .cornerRadius(20)
-                                                
-                                                Spacer()
-                                                    .frame(height: 40)
-                                                
-                                                Text("ZEISS InProcess - Freeware worth having. ")
-                                                    .fontWeight(.bold)
-                                                    .font(.title)
-                                            }
-                                        }
-                                        Group{
                                             Spacer()
-                                                .frame(height: 3)
+                                                .frame(height: 30)
+                                            
+                                            Image("inprocess1")
+                                                .resizable()
+                                                .aspectRatio(CGSize(width: 7, height: 4), contentMode: .fill)
+                                                .frame(width: getRect().width - 40, height: 260)
+                                                .cornerRadius(20)
+                                            
+                                            Spacer()
+                                                .frame(height: 40)
+                                            
+                                            Text("ZEISS InProcess - Freeware worth having. ")
+                                                .fontWeight(.bold)
+                                                .frame(width: 360, height: 100, alignment: .center)
+                                                .font(.system(size: 27))
                                             
                                             Text("The ZEISS InProcess operating software features touchscreen optimized user interfaces and is easy to use at multiple levels. It comes free with every system and is both OPC and field bus ready for process automation configurations.")
-                                                .frame(width: 370, height: 100, alignment: .center)
+                                                .frame(width: 340, height: 130, alignment: .center)
                                                 .font(.system(size: 16))
+                                                
+                                            }
+                                        }
+                                
+                                        Group{
                                             
                                             
+                                        
                                             Spacer()
-                                                .frame(height: 50)
+                                                .frame(height: 40)
                                             
                                             Image("inprocess2")
                                                 .resizable()
-                                                .aspectRatio(contentMode: .fill)
+                                                .aspectRatio(CGSize(width: 7, height: 3.5), contentMode: .fill)
+                                                .frame(width: getRect().width - 40, height: 190)
                                                 .cornerRadius(20)
                                             
                                             Spacer()
@@ -96,12 +102,14 @@ struct Software: View {
                                             Text("Software for optimizing Your Process ")
                                                 .fontWeight(.bold)
                                                 .font(.title)
+                                                .frame(width: 360, height: 100, alignment: .center)
+                                                .font(.system(size: 27))
                                             
                                         }
                                         Group{
                                             
                                             Text("The InProcess software allows you to view all of your data on one screen that is customizable to fit your specific needs. The screens can be adapted to include many different measurements and statistics all in one place")
-                                                .frame(width: 370, height: 100, alignment: .center)
+                                                .frame(width: 340, height: 130, alignment: .center)
                                                 .font(.system(size: 16))
                                             
                                             Spacer()
@@ -114,10 +122,10 @@ struct Software: View {
                                                 })
                                             ){
                                                 
-                                                Text("User Manual >")
+                                                Text("inProcess User Manual >")
                                                     .fontWeight(.bold)
                                                     .frame(width: 300, height: 10, alignment: .center)
-                                                    .font(.system(size: 30))
+                                                    .font(.system(size: 23))
                                             }
                                             
                                             Spacer()
@@ -134,7 +142,8 @@ struct Software: View {
                                             
                                             Image("sensologic1")
                                                 .resizable()
-                                                .aspectRatio(contentMode: .fill)
+                                                .aspectRatio(CGSize(width: 7, height: 4.5), contentMode: .fill)
+                                                .frame(width: getRect().width - 40, height: 230)
                                                 .cornerRadius(20)
                                             
                                             Spacer()
@@ -143,22 +152,25 @@ struct Software: View {
                                             Text("Powerful Analytical Software ")
                                                 .fontWeight(.bold)
                                                 .font(.title)
+                                                .frame(width: 360, height: 100, alignment: .center)
+                                                .font(.system(size: 27))
                                         }
                                         Group{
                                             
                                             
-                                            Text("The ZEISS SensoLogic Software Suite allows you to easily import spectra and sample data. This chemometric software is simple to use and thus ideal for both beginners and experts. ")
-                                                .frame(width: 370, height: 100, alignment: .center)
+                                            Text("Building and maintaining the chemometric models or calibrations needed to enable inline sensors has become far easier with the release of the new SensoLogic Calibration Wizard by ZEISS. ")
+                                                .frame(width: 340, height: 100, alignment: .center)
                                                 .font(.system(size: 16))
                                             
                                             
                                             Spacer()
-                                                .frame(height: 20)
+                                                .frame(height: 40)
                                             
                                             Image("sensologic2")
                                                 .resizable()
-                                                .aspectRatio(contentMode: .fill)
-                                                .cornerRadius(20)
+                                                .aspectRatio(CGSize(width: 7, height: 4.5), contentMode: .fill)
+                                                .frame(width: getRect().width - 40, height: 230)
+                                                .cornerRadius(15)
                                             
                                             Spacer()
                                                 .frame(height: 40)
@@ -170,12 +182,12 @@ struct Software: View {
                                             Spacer()
                                                 .frame(height: 10)
                                             
-                                            Text("SensoLogic works with all brands of spectrometers, allowing you to keep costs low. With Sensologic, the development models for both quantitative and qualitative models are at your fingertips.")
-                                                .frame(width: 370, height: 100, alignment: .center)
+                                            Text("Near-infrared systems can now be easily calibrated by trained factory staff for an infinite number of measurement tasks. The software is easy to learn and has a low one-time cost with free updates.")
+                                                .frame(width: 340, height: 100, alignment: .center)
                                                 .font(.system(size: 16))
                                             
                                             Spacer()
-                                                .frame(height:20)
+                                                .frame(height:40)
                                             
                                             NavigationLink(destination: Sensologicpdf1().id(UUID())
                                                 .navigationBarBackButtonHidden(true)
